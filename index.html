@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <style>
+        :root {
+            --primary-color: #ffffff;
+            --secondary-color: #007bff;
+            --text-color: #333333;
+            --font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            margin: 0;
+            font-family: var(--font-family);
+            background-color: var(--primary-color);
+            color: var(--text-color);
+        }
+
+        header {
+            background: linear-gradient(270deg, rgb(149, 219, 244, 0), rgb(149, 219, 244, 0));
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: var(--text-color);
+            padding: 1rem 2rem;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+
+        nav {
+            display: flex;
+            gap: 1rem;
+        }
+
+        nav a {
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0rem 2rem;
+            background-image: url('Pattern.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .navbar h1 {
+            margin: 0;
+            font-size: 3rem
+        }
+
+        .navbar .text {
+            width: 50%;
+            text-align: center;
+            padding-right: 2rem;
+        }
+
+        .about {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2rem;
+            background-image: url('Pattern.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .about h1 {
+            margin: 0;
+            font-size: 3rem
+        }
+
+        .about img {
+            width: 40%;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .about .text {
+            width: 50%;
+            text-align: left;
+            padding-right: 2rem;
+        }
+
+        .education {
+            background: linear-gradient(90deg, #0E699B, #95DBF4);
+            padding: 2rem;
+        }
+
+        .education h2 {
+            color: var(--primary-color);
+        }
+
+        .education ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .education li {
+            margin: 1rem 0;
+        }
+
+        .education a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .education a:hover {
+            text-decoration: underline;
+            
+        }
+        .colored-div {
+            background: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0));;
+            padding: 1rem;
+    }
+        .experience {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2rem;
+            background-image: url('Pattern.png');
+            background-size: cover;
+            background-position: center;
+        }
+        .about .text {
+            width: 50%;
+            text-align: left;
+            padding-right: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <section id="navbar" class="navbar">
+        <h2>ARLAN CRYSNA GURNANDY</h2>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#software">Software Usage</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </section>
+    <section id="about" class="about">
+        <div class="colored-div">
+            <h1>Hi! It's me</h1>
+            <h1><span class="gradient-text-1">Arlan Crysna Gurnandy</span></h1>
+            <h2>I'am a Graphic Designer</h2>
+            <p>Hello! I am a graphic designer who has been involved in the world of graphic design for over 8 years, with more than 2 years of professional work experience. I started delving into graphic design during junior high school as a self-taught enthusiast and pursued it more seriously in vocational high school, where I majored in Graphic Design. There, I graduated as the top student in the Graphic Design department and was admitted to university through SNMPTN, a national university entrance program in Indonesia. At university, I continued to deepen my passion for design by studying in the Visual Communication Design program, which offered a broader perspective on the design world. Eventually, I completed my Bachelor’s degree, enriched with valuable experiences and achievements throughout my journey. I am highly passionate about exploring new things related to design or creating concepts for communication media.</p>
+        </div>
+        <img src="Foto.png" alt="Foto About Me">
+    </section>
+
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <ul>
+            <li><a href="https://maps.app.goo.gl/maWgpdDASapEutWJ9" target="_blank">TK HIKMAH YAPIS JAYAPURA (2005 - 2006)</a></li>
+            <li><a href="https://maps.app.goo.gl/jZ8fCL3312prRpC26" target="_blank">SD NEGERI INPRES 1 APO JAYAPURA (2006 - 2012)</a></li>
+            <li><a href="https://maps.app.goo.gl/JhT4JqNYehmaTi7w8" target="_blank">MTS BADAN AMAL UJUNGLOE BULUKUMBA (2012 - 2016)</a></li>
+            <li><a href="https://maps.app.goo.gl/92WHUBfXGF2tMiHX8" target="_blank">SMK NEGERI 4 GOWA (DESAIN GRAFIS) (2016 - 2019)</a></li>
+            <li><a href="https://maps.app.goo.gl/UHVYJu4qTkMA4JcJ8" target="_blank">UNIVERSITAS NEGERI MAKASSAR (DESAIN KOMUNIKASI VISUAL) (2019 - 2024)</a></li>
+        </ul>
+    </section>
+    <section id="experience" class="experience">
+        <h2>Experience</h2>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Portofolio Saya. Semua Hak Dilindungi.</p>
+    </footer>
+</body> 
+<style>
+    .about h1 .gradient-text-1 {
+      background: linear-gradient(225deg, #0E699B, #95DBF4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</html>
+
+
+
+
+
